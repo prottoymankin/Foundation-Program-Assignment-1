@@ -23,10 +23,3 @@ const getChaseVerdict = (
   return `Need ${runsNeeded} runs in ${ballsLeft} balls | Almost Impossible`; 
 
 };
-
-console.log(getChaseVerdict(200, 200, 12));
-console.log(getChaseVerdict(200, 190, 0));
-console.log(getChaseVerdict(100, 90, 12));
-console.log(getChaseVerdict(100, 80, 12));
-console.log(getChaseVerdict(100, 70, 12));
-console.log(getChaseVerdict(150, 149, 1));
